@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <title>Blank App</title>
+		<!-- Bootstrap -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/font-awesome.min.css" rel="stylesheet">
+    </head>
+    <body>
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog">
+			<div class="modal-dialog modal-sm" role="document">
+				<div class="modal-content">
+					<div class="modal-body text-center">
+						Horario Actualizado
+					</div>
+				</div><!-- /.modal-content -->
+			</div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->
+		
+		<div class="container-fluid text-center" style="background-color:navy;color:white;">
+			<div class="row">
+				<div class="col-md-12">
+					<h3>Actualizar&nbsp;Horario</h3>
+				</div>
+			</div>
+		</div>	
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<br />
+					<div class="form-horizontal">
+						<div class="form-group">
+							<label for="nombre" class="col-sm-2 col-xs-3 control-label">D&iacute;a Inicio</label>
+							<div class="col-sm-10 col-xs-9">
+								<select class="form-control">
+									<option>Lunes</option>
+								</select>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="nombre" class="col-sm-2 col-xs-3 control-label">D&iacute;a Fin</label>
+							<div class="col-sm-10 col-xs-9">
+								<select class="form-control">
+									<option>Domingo</option>
+								</select>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="nombre" class="col-sm-2 col-xs-3 control-label">Desde</label>
+							<div class="col-sm-10 col-xs-9">
+								<select class="form-control">
+									<option>07:00 am</option>
+								</select>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="nombre" class="col-sm-2 col-xs-3 control-label">Hasta</label>
+							<div class="col-sm-10 col-xs-9">
+								<select class="form-control">
+									<option>07:00 am</option>
+								</select>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-10 col-md-offset-1">
+					<button type="button" class="btn btn-success btn-block" data-toggle="modal" data-target="#myModal">Grabar</button>
+				</div>
+				<div class="col-md-12">
+					<br />
+					<a href="perfil.html" class="btn btn-link"><i class="fa fa-arrow-left" aria-hidden="true"></i>&nbsp;Atr&aacute;s</a>
+				</div>
+			</div>
+		</div>
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="js/jquery-3.2.1.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="cordova.js"></script>
+    </body>
+</html>

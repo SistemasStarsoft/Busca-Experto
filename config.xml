@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.gabriel.buscaexperto"
+		version="1.0.0"
+		versionCode="1"
+		xmlns="http://www.w3.org/ns/widgets"
+		xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Busca tu Experto</name>
+    <description>
+        App para buscar expertos.
+    </description>
+    <author email="support@phonegap.com" href="http://phonegap.com">
+        Gabriel Acuña
+    </author>
+    <content src="index.html" />
+	<icon src="icon.png"/>
+    <access origin="*" />
+</widget>
